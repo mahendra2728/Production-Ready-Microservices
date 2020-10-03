@@ -1,0 +1,5 @@
+com\pm\rentapp\commons\model\Role.class
+com\pm\rentapp\commons\model\User.class
+com\pm\rentapp\commons\model\UserRequestModel.class
+com\pm\rentapp\commons\model\Customer.class
+com\pm\rentapp\commons\model\UserCreationResponse.class

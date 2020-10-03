@@ -1,0 +1,12 @@
+server:
+  port: 8099
+  
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/rentDb?createDatabaseIfNotExist=true
+    username: root
+    password: mysql
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update

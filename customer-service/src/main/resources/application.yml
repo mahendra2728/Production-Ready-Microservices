@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: customer
+
+security:  oauth2:    resource:      token-info-uri: http://localhost:8099/oauth/check_token
+    client:      client-id: my-trusted-app
+      client-secret: password 
+      

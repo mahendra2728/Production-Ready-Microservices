@@ -1,0 +1,16 @@
+security:
+  oauth2:
+    client:
+      client-id: my-trusted-app
+      client-secret: password
+      user-authorization-uri: http://localhost:8099/oauth/authorize
+      access-token-uri: http://localhost:8099/oauth/token
+    resource:
+      token-info-uri: http://localhost:8099/oauth/check_token
+      
+server:
+  servlet:
+    session:
+      cookie:
+        name: MSESSION
+      
